@@ -1,0 +1,34 @@
+h1{
+    text-align:center;
+    font: weight bolder;
+    color:blue;
+    text-decoration-line:underline;
+}
+
+div{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:200px;
+    padding: auto;
+
+
+}
+
+div>form>#name,#employeeId,#department,#exp,#text,#mbl{
+    line-gap-override:300%;
+
+}
+
+div>form>pseudo-classinput:last-of-type{
+    color:blue;
+
+}
+
+table,th,td{
+    border:1px solid;
+    color:white;
+    background-color:black;
+}
+
+form label{
+ font-weight: bold;
+}
